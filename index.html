@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet"></link>
+    <title>Buscador de Anime</title>
+  </head>
+  <body>
+    <h1 class="titulo">Anime list !</h1>
+    <p class="titulo">Búscalo mediante nombre.</p>
+    <div class="controls">
+      <input type="text" id="animeInput" placeholder="Ej: naruto" />
+      <button id="searchBtn" class="boton">BUSCAR</button>
+      <button id="randomBtn" class="boton">RANDOM</button>
+    </div>
+    <p id="mensaje" style="display: none" class="titulo">Puede tomar un par de segundos...</p>
+
+    <p id="error" class="titulo"></p>
+
+    <div class="container-grande">
+        <div id="anime-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
